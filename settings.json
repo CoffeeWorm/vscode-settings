@@ -1,0 +1,81 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+
+  "workbench.colorTheme": "Monokai",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "explorer.confirmDelete": false,
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascriptreact", "javascript", "html", "vue"],
+
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "typescript.preferences.quoteStyle": "single",
+
+  "prettier.singleQuote": true,
+  "prettier.endOfLine": "crlf",
+
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 120
+    },
+    "prettier": {
+      "semi": true,
+      "singleQuote": true
+    }
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
+
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "html.autoClosingTags": false,
+  "html.format.wrapLineLength": 80,
+  "workbench.statusBar.feedback.visible": false,
+  "editor.fontSize": 16,
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "consolas",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "git.autofetch": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/bower_components": true,
+},
+"files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true
+},
+"[javascriptreact]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[jsonc]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[json]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"eslint.packageManager": "yarn"
+}
